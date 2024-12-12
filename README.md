@@ -36,6 +36,10 @@ The Network Insight Dashboard is a Flask-based web application that provides a s
    ```bash
    pip install flask speedtest-cli psutil
    ```
+3. Create the following folder structure:
+   - `static/`: For storing static assets like background images.
+   - `templates/`: For storing all the HTML templates.
+   Ensure that both the `static` and `templates` folders are in the same directory as `project.py`.
 
 ## Running the Application
 1. Navigate to the directory containing the source code.
@@ -74,5 +78,4 @@ The application uses Flask's Jinja2 templating engine to render HTML pages. Each
 
 ## License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
-
 
