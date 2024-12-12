@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Speed Test</title>
+    <style>
+        body {
+            background-image: url('/static/back.jpg');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            font-size: 24px;
+            padding: 50px;
+            position: relative;
+        }
+        p {
+            margin-top: 20px;
+        }
+        .home-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(52, 152, 219, 0.7); /* Opaque blue background */
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Network Speed Test</h1>
+    <p>Download Speed: {{ download_speed }} Mbps</p>
+    <p>Upload Speed: {{ upload_speed }} Mbps</p>
+    <a href="/"><button class="home-button">Home</button></a>
+</body>
+</html>
